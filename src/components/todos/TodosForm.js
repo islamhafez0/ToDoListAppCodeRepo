@@ -60,7 +60,7 @@ const TodosForm = (props) => {
   }
 
   return (
-    <div className="todos-form">
+    <form className="todos-form">
       <div
         className={
           mode === modesTypes.NOT_DONE
@@ -88,7 +88,7 @@ const TodosForm = (props) => {
           {btnString}
         </button>
       </div>
-    </div>
+    </form>
   );
 };
 

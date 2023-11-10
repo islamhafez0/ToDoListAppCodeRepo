@@ -30,7 +30,7 @@ const Todos = (props) => {
         return <Todo todo={todo} key={todo.id} />;
       })}
       {todos.length === 0 ? (
-        <h3 className="no-todos">There are no tasks currently..</h3>
+        <h3 className="no-todos">No Tasks in Sight...</h3>
       ) : null}
     </div>
   );

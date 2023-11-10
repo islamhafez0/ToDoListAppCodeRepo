@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
       <h1>
-        Tasks to do
+        Current Tasks
         <span> ({todos && todos.length})</span>
       </h1>
     </header>
